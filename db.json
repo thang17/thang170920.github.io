@@ -1,0 +1,56 @@
+{
+  "product": [
+    {
+      "id": "3",
+      "name": "sanwick 555",
+      "price": "88999",
+      "date": "2026-10-25",
+      "img": "https://images.squarespace-cdn.com/content/v1/53883795e4b016c956b8d243/1551438228969-H0FPV1FO3W5B0QL328AS/chup-anh-thuc-an-1.jpg",
+      "status": "false"
+    },
+    {
+      "name": "Incredible ",
+      "img": "https://beptueu.vn/hinhanh/tintuc/top-15-hinh-anh-mon-an-ngon-viet-nam-khien-ban-khong-the-roi-mat-1.jpg",
+      "price": "",
+      "status": "false",
+      "createdAt": 1650876887318,
+      "date": "2018-11-30",
+      "id": "4"
+    },
+    {
+      "name": "tôm hùm",
+      "img": "https://beptueu.vn/hinhanh/tintuc/top-15-hinh-anh-mon-an-ngon-viet-nam-khien-ban-khong-the-roi-mat-3.jpg",
+      "price": "25.22",
+      "status": "false",
+      "createdAt": 1650876887318,
+      "date": "2022-06-10",
+      "id": "5"
+    },
+    {
+      "name": "Licensed Frozen",
+      "img": "https://tamkyrt.vn/hinh-anh-nhung-mon-an-ngon-dep-mat/imager_14_10104_700.jpg",
+      "price": "973.00",
+      "status": "false",
+      "createdAt": 1650876887318,
+      "date": "2022-04-30",
+      "id": "6"
+    },
+    {
+      "name": "Ergonomic ",
+      "img": "https://chupanhmonan.com/wp-content/uploads/2018/10/chup-anh-mon-an-chuyen-nghiep-tu-liam-min-min.jpg",
+      "price": "8.00",
+      "status": "true",
+      "createdAt": 1650876887318,
+      "date": "2022-04-17",
+      "id": "7"
+    }
+  ],
+  "users": [
+    {
+      "email": "ducthangg20@gmail.com",
+      "password": "$2a$10$NNaa3EiFcT/wsx/8YaucLe.oq8YOJ1BHE3ubn4jzWNtxcRJs9vZvO",
+      "name": "Thắng Lê",
+      "id": 1
+    }
+  ]
+}

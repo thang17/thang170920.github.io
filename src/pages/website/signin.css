@@ -1,0 +1,423 @@
+*,*:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tyty {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(left,#7579ff, #b224ef);
+}
+
+.cont {
+    overflow: hidden;
+    position: relative;
+    width: 900px;
+    height: 550px;
+    background: #fff;
+}
+
+.form {
+    position: relative;
+    width: 640px;
+    height: 100%;
+    padding: 50px 30px;
+    -webkit-transition: -webkit-transform 1.2s ease-in-out;
+    transition:  -webkit-transform 1.2s ease-in-out;
+    transition:  transform 1.2s ease-in-out;
+    transition:  transform 1.2s ease-in-out,  -webkit-transform 1.2s ease-in-out;
+}
+
+.hyy {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.web1 span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #505f75;
+    text-transform: uppercase;
+}
+
+.web1 {
+    display: block;
+    width: 260px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.kuiii {
+    outline: none;
+    background: none;
+    border: none;
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 16px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(109, 93, 93, 0.4);
+    text-align: center;
+}
+
+.submit {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    height: 36px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.submit1 {
+    outline: none;
+    background: none;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    background: -webkit-linear-gradient(left,#7579ff, #b224ef);
+}
+
+.submit1:hover {
+    background: -webkit-linear-gradient(left,#b224ef, #7579ff);
+}
+
+.forgot-pass {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0c0101;
+    cursor: pointer;
+}
+
+.forgot-pass1 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0c0101;
+    cursor: pointer;
+}
+
+.forgot-pass:hover {
+    color: red;
+}
+
+.social-media {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media ul {
+    list-style: none;
+}
+
+.social-media ul li {
+   display: inline-block;
+   cursor: pointer;
+   margin: 25px 15px;
+   font-size: 30px;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+}
+
+.sub-cont {
+    overflow: hidden;
+    position: relative;
+    left: 640px;
+    top: -550px;
+    width: 900px;
+    height: 100%;
+    padding-left: 260px;
+    background: #fff;
+    -webkit-transition: -webkit-transform 1.2s ease-in-out;
+    transition:  -webkit-transform 1.2s ease-in-out;
+    transition:  transform 1.2s ease-in-out;
+}
+
+.gigigi {
+    overflow: hidden;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 100%;
+    padding-top: 360px;
+}
+
+.gigigi:before {
+    background-color: #7579ff;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 900px;
+    height: 100%;
+    background-image: url(../../img/Anh-thien-nhien-6.jpg);
+    background-size: cover;
+    transition:  -webkit-transform 1.2s ease-in-out;
+    transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+}
+.gigigi:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.3);
+}
+
+.img-text {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    color: #fff;
+    -webkit-transition: -webkit-transform 1.2s ease-in-out;
+    transition:  -webkit-transform 1.2s ease-in-out;
+    transition:  transform 1.2s ease-in-out,  -webkit-transform 1.2s ease-in-out;
+}
+
+.img-text h2{
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.img-text p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* Sign up */
+
+:root {
+    font-size: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    --primary-blue:#233975;
+}
+
+.tikaka {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.h1h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.h2h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.a1a1 {
+    text-decoration: none;
+    color: var(--primary-blue);
+}
+
+.a1a1:hover {
+    text-decoration: underline;
+}
+
+.small {
+    font-size: 80%;
+    text-align: center;
+}
+
+.split-screen {
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    height: 200px;
+}
+
+.left, .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)), url('../../img/1000_F_318531097_VHAyOh0zi7EiMuLcmAfUlFV8q4kDj9O5.jpg');
+    background-size: cover;
+}
+
+.left .copy {
+    color: white;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.left p {
+    font-weight: 400;
+} 
+
+.right .copy {
+    color: black;
+    text-align: center;
+}
+
+.right .copy p {
+    margin: 1.5rem 0 ;
+    font-size: 0.875rem;
+}
+
+.right form {
+    width: 328px;
+}
+
+form input[type='text'],
+form input[type='email'],
+form input[type='password'] {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #c4c4c4;
+    padding: 0.5rem;
+    margin-bottom: 0.875rem;
+}
+
+.phong {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+}
+
+.input-container.password {
+    position: relative;
+}
+
+.input-container.password i {
+    position: absolute;
+    top: 42px;
+    right: 16px;
+}
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 2rem;
+    cursor: pointer;
+    user-select: none;
+    margin: 0 0 1.25rem 0;
+}
+
+.checkbox-container input:checked~.checkmark {
+    background-color: var(--primary-blue);
+    border: 1px solid var(--primary-blue);
+}
+
+.checkmark {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: white;
+    border: 1px solid #c4c4c4;
+    border-radius: 2px;
+    top: -4px;
+    left: 0;
+}
+
+.checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-container input:checked~.checkmark::after {
+    display: block;
+}
+
+.checkbox-container .checkmark::after {
+     border: solid white;
+    border-width: 0 3px 3px 0;
+    width: 5px;
+    height: 10px;
+    left: 8px;
+    top: 4px;
+    transform: rotate(45deg);
+}
+
+.sign-up {
+    display: block;
+    width: 100%;
+    background: var(--primary-blue);
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.sign-up:hover {
+    background: #2c4893;
+    cursor: pointer;
+}
+
+.erroe {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.86),
+        rgba(255, 255, 255, 0.86)
+      ),
+      #ed2e67;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #ed2e67;
+}
+
+.success {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.86),
+        rgba(255, 255, 255, 0.86)
+      ),
+      #24bf60;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #24bf60;
+}
